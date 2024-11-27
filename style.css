@@ -1,0 +1,278 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2 rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "poppins", sans-serif;
+}
+
+:root {
+    --main-color: #b7bab9;
+    --second-color: #1e2a8a;
+}
+
+header ul a{
+    text-decoration: none;
+}
+
+.home a{
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 10%;
+}
+*::selection{
+    color:#fff;
+    background: var(--main-color  );
+}
+img {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 4px 41px rgba(22, 38, 38, 0.14);
+    padding: 15px 10%; 
+    transition: 0.25;
+}
+
+.logo img {  /* Ubah bagian ini */
+    max-width: 200px; /* Atur lebar maksimum logo */
+      /* Biarkan tinggi menyesuaikan otomatis */
+}
+
+.navbar { 
+    display: flex; 
+    margin: 0;
+    list-style: none;
+    padding: 20px 10px; /* Ubah padding navbar */
+}
+
+.navbar a {
+    font-size: 1rem;
+    padding: 1px 10px;
+    color: var(--second-color);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
+#menu-icon{
+    font-size:24px;
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #ebdbc8;
+    gap:1rem;
+}
+.home-text{
+    flex:1 1 17rem;    
+}
+.home-img{
+    flex: 1 1 30%;
+}  
+.home-text span{
+    font-size: 3rem;
+    text-transform:uppercase ;
+    font-weight: 600;
+    color: var(--second-color);
+}
+.home-text h1{
+    font-size: 3.2rem;
+    color: var(--main-color);
+    font-weight: bolder;
+}
+.home-text h3{
+    font-size: 1rem;
+    font-weight: 250;
+    text-transform: uppercase;
+    margin: 0.5rem 0 1.4rem;
+} 
+.btn-primary{
+    padding: 7px 16px;
+    border: 2px solid var(--second-color);
+    border-radius: 40px;
+    color: var(--second-color);
+    font-weight: 500;
+}
+.btn-primary:hover{
+    color: #fff;
+    background: var(--second-color);
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 123px;
+}
+
+<!--perbaiki besok warna e-->
+.heading h1{
+    font-size: 2rem;
+    color: var(--main-color);
+}
+.card{
+    margin-top: 100px;
+    padding: 10px;
+    margin-left: 20px;
+    align-items: center;
+    color: black;
+}
+.teks{
+    text-align: center;
+    margin-top: 39px;
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 300px;
+    width: 900px;
+}
+.mb-3{
+    margin-top: 50px;
+}
+.card{
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    align-items: center; /* Memastikan elemen sejajar secara vertikal */
+}
+
+.sell-now-img {
+    flex: 1 1 40%; /* Mengatur lebar gambar agar menempati 40% */
+}
+
+.sell-now-teks {
+    flex: 1 1 55%; /* Mengatur lebar teks agar menempati 55% */
+
+}
+
+.sell-now-teks h2 {
+    font-size: 1.5rem; /* Ukuran heading lebih besar */
+    color: var(--second-color);
+    margin-bottom: 1rem; /* Menambahkan jarak di bawah heading */
+}
+
+.sell-now-teks p {
+    margin: 0;
+    text-align: justify;
+    line-height: 1.6; /* Meningkatkan jarak antar baris untuk keterbacaan */
+}
+input[type="text"], input[type="number"], input[type="date"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #f4c8da;
+} */
+
+.container-form {
+    margin-top: 220px;
+    padding: 100px;
+    background-color: #e8f5e9;
+    border: 5px solid #eba4c1;
+    border-radius: 56px;
+    display: none;
+}
+#peminjamanForm{
+    margin-top: 100px;
+    border: 1px solid var(--main-color);
+    background-color: #e8f5e9;
+    border: 5px solid #eba4c1;
+    padding: 260px;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 250px;
+ background-color: rgb(255, 255, 255);
+}
+
+
+.contact-section{
+    padding: 150px;
+    background-color: #e8e5e5;
+    text-align: center;
+
+}
+.contact-section h2{
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+.contact-form{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px 100px 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.547);
+}
+.form-group{
+    margin-bottom: 20px;
+    text-align: left;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+.form-group input, .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+.form-group textarea{
+    resize: none;
+}
+.layanan-section{
+    padding: 50px;
+    text-align: center;
+}
+.layanan-section h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+#strukContainer {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: none; /* Struk tidak langsung terlihat */
+}
+#strukContainer h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#strukContainer p {
+    margin: 5px 0;
+}
